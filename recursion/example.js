@@ -18,7 +18,7 @@ wr();
 // fibonacci sequence are the two previous terms added together:
 // 1 + 1 = 2, 2 + 1 = 3, 3 + 2 = 5, 5 + 3 = 8
 function fibonacci(n) {
-  // base case, should be pretty agressive in case someone calls fib w/ -1
+  // base case, should be pretty agressive incase someone calls fib w/ -1
   if (n <= 2) {
     return 1;
   }

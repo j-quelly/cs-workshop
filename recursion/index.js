@@ -12,11 +12,12 @@
 */
 
 module.exports = function factorial(n) {
+  // base case
   if (n < 2) {
     return n;
   }
 
   // 3 * (3 - 1)
-  // base case
+  // then base case
   return n * factorial(n - 1);
 };

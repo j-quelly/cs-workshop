@@ -3,9 +3,6 @@
   "spec_files": [
     "**/*[aA]nalysis.js"
   ],
-  "helpers": [
-    "spec/helpers/**/*.js"
-  ],
   "stopSpecOnExpectationFailure": false,
   "random": true
 }
